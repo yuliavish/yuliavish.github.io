@@ -1,0 +1,128 @@
+body{
+    background: grey;
+    margin: 0;
+    padding: 0;
+}
+.container-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.screen-1 {
+    background: black;
+    color: white;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.screen-1__img {
+    max-height: 300px;
+    object-fit: contain;
+}
+.screen-1__button {
+    background: black;
+}
+.screen-1__icon {
+}
+.screen-2 {
+    box-sizing: border-box;
+    padding: 20px;
+}
+.screen-2__nav {
+    background: black;
+    color: white;
+}
+.screen-2__actions {
+    background: white;
+    color: black;
+}
+.screen-2__actions_all {
+}
+.screen-2__actions_first_line {
+    display: flex;
+    
+}
+.screen-2__actions_watchlists img,.screen-2__actions_convert img,.screen-2__actions_compare img,.screen-2__actions_price_alert img {
+    max-height: 100px;
+    object-fit: contain;
+}
+
+.screen-2__actions_second_line {
+    display: flex;
+}
+
+.screen-2__tranding {
+}
+.screen-2__tranding_coin1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.screen-2__tranding_aftercoin {
+}
+.screen-2__tranding_img {
+}
+.screen-2__tranding_descr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.screen-2__tranding_price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.screen-2__tranding_coin2 {
+}
+.screen-3 {
+    background: white;
+    color: black;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.screen-3__amount {
+}
+.screen-3__img img {
+    max-height: 100px;
+    object-fit: contain;
+}
+.screen-3__credit {
+    display: flex;
+    justify-content: space-between;
+}
+.grid-12 {
+    display: grid;
+    grid-template-columns: 100px 50px 100px;
+    grid-template-rows: 80px auto 80px;
+    column-gap: 10px;
+    row-gap: 15px;
+}
+.grid-element_1 {
+}
+.grid-element_2 {
+}
+.grid-element_3 {
+}
+.grid-element_4 {
+}
+.grid-element_5 {
+}
+.grid-element_6 {
+}
+.grid-element_7 {
+}
+.grid-element_8 {
+}
+.grid-element_9 {
+}
+.grid-element_10 {
+}
+.grid-element_11 {
+}
+.grid-element_12 {
+}
+.button-buy {
+}
+.button-buy__black {
+}
+.button-buy__white {
+}
