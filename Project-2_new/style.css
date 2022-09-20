@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body{
+    background: grey;
+}
+.container-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.screen-1 {
+    background: black;
+    color: white;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.screen-1 h3::before {
+    content: url(https://img.icons8.com/ios/15/000000/asterisk.png);
+    filter: invert(100%); 
+    padding-right: 10px;
+    
+}
+.screen-1__img {
+    max-height: 300px;
+    object-fit: contain;
+}
+.screen-1__button {
+	box-sizing: border-box;
+	padding: 0 24px;
+	margin: 0 15px 15px 0;
+	border-radius: 3px;
+	height: 37px;
+	line-height: 37px;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	color: black;
+	background-color: yellowgreen;
+	cursor: pointer;
+}
+.screen-1__icon {
+}
+.screen-2 {
+  
+}
+.screen-2__nav {
+    background: black;
+    color: white;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.screen-2__nav_hallo {
+    margin-bottom: 10px;
+    color: gray;
+}
+.screen-2__nav_hallo::after {
+    content: url(https://img.icons8.com/fluency-systems-regular/20/000000/menu-rounded.png);
+    filter: invert(100%);
+    padding-left: 95px;
+}
+.screen-2__nav_total {
+    margin-bottom: 10px;
+    color: gray;
+}
+.screen-2__nav_total::after {
+    content: url(https://img.icons8.com/carbon-copy/20/000000/double-down.png);
+    filter: invert(100%);
+    padding-left: 77px;
+}
+.screen-2__nav h1 {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 45px;
+}
+.screen-2__actions {
+    background: white;
+    color: black;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.screen-2__actions_all {
+}
+.screen-2__actions_first_line {
+    display: flex;
+    
+}
+.screen-2__actions_watchlists img,.screen-2__actions_convert img,.screen-2__actions_compare img,.screen-2__actions_price_alert img {
+    max-height: 100px;
+    object-fit: contain;
+}
+
+.screen-2__actions_second_line {
+    display: flex;
+}
+
+.screen-2__tranding {
+}
+.screen-2__tranding_coin1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.screen-2__tranding_aftercoin {
+}
+.screen-2__tranding_img {
+}
+.screen-2__tranding_descr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.screen-2__tranding_price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.screen-2__tranding_coin2 {
+}
+.screen-3 {
+    background: white;
+    color: black;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.screen-3__amount h1::before {
+    content: url(https://img.icons8.com/ios-glyphs/30/000000/reply-arrow.png);
+    padding-right: 25px;
+}
+.screen-3__amount h1::after {
+    content: url(https://img.icons8.com/ios-glyphs/30/000000/question-mark.png);
+    padding-left: 25px;
+}
+
+.screen-3__img img {
+    max-height: 100px;
+    object-fit: contain;
+}
+.screen-3__credit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calc {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+.calc__1, .calc__2, .calc__3, .calc__4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.button-buy {
+}
+.button-buy__black {
+    box-sizing: border-box;
+	padding: 0 24px;
+	margin: 0 15px 15px 0;
+	border-radius: 3px;
+	height: 37px;
+	line-height: 37px;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	cursor: pointer;
+}
+.button-buy__white {
+}
