@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.container-wrapper .block__1_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container-wrapper .block__1_nav .block__1_descr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.block__1_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 40px;
+}
+
+.block__1_buttons .block__1_button2 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 24px;
+  margin: 0 15px 15px 0;
+  border-radius: 3px;
+  height: 37px;
+  line-height: 37px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  background-color: yellowgreen;
+}
+
+.heroboxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.heroboxes__1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.heroboxes__1 .heroboxes__1_hello {
+  color: green;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.heroboxes__1 .heroboxes__1_hello .heroboxes__1_simple {
+  font-size: 60px;
+}
+
+.heroboxes__1 .heroboxes__1_hello .heroboxes__1_simple .heroboxes__1_lorem {
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.heroboxes__1_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+}
+
+.heroboxes__1_btn .heroboxes__1_btn1 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 24px;
+  margin: 0 15px 15px 0;
+  border-radius: 3px;
+  height: 37px;
+  line-height: 37px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  background-color: yellow;
+}
+
+.heroboxes__1_btn .heroboxes__1_btn1 .heroboxes__1_btn2 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 24px;
+  margin: 0 15px 15px 0;
+  border-radius: 3px;
+  height: 37px;
+  line-height: 37px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  background-color: green;
+}
+
+.icons__descr p {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.icons__choose {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.block__2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.block__2 .block__2_help {
+  font-size: 70px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */
